@@ -1,6 +1,10 @@
+$:.push(File.join(File.dirname(__FILE__), "lib/"))
+
+require "version"
+
 Gem::Specification.new do |s|
   s.name = 'exercise_42'
-  s.version = '0.0.1'
+  s.version = EX42_VERSION
   s.date = '2012-05-26'
 
   s.summary = 'exercise 42 of Ruby the Hard Way'
